@@ -15,7 +15,7 @@ const IntroAnimation = ({ onFinish }) => {
 
   useEffect(() => {
     if (index < greeting.length - 1) {
-      const id = setInterval(() => setIndex((i) => i + 1), 200)
+      const id = setInterval(() => setIndex((i) => i + 1), 190)
       return () => clearInterval(id)
     } else {
       const t = setTimeout(() => setVisible(false), 300)

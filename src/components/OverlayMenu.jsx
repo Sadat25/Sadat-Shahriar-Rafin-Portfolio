@@ -16,7 +16,7 @@ const OverlayMenu = ({ isOpen, onClose }) => {
           initial={{ clipPath: `circle(0% at ${origin})` }}
           animate={{ clipPath: `circle(150% at ${origin})` }}
           exit={{ clipPath: `circle(0% at ${origin})` }}
-          transition={{ duration: 0.7, ease: [0.4, 0, 0.2, 1] }}
+          transition={{ duration: 1.1, ease: [0.4, 0, 0.2, 1] }}
           style={{ backgroundColor: "rgba(0,0,0,0.90)" }}
         >
           <button
