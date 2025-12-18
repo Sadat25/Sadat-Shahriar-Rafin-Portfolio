@@ -4,7 +4,7 @@ import { FiX } from "react-icons/fi";
 const OverlayMenu = ({ isOpen, onClose }) => {
 
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
-  const origin = isMobile ? "95% 8%" : "50% 8%"
+  const origin = isMobile ? "95% 8%" : "94% 5%"
 
 
   return (
@@ -47,7 +47,7 @@ const OverlayMenu = ({ isOpen, onClose }) => {
                 <a
                   href={`#${item.toLowerCase()}`}
                   onClick={onClose}
-                  className='text-4xl text-white font-semibold hover:text-pink-400 transition-colors duration-300 '
+                  className='text-4xl text-white font-semibold bg-clip-text hover:text-transparent bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#1cd8d2] transition-colors duration-300 '
                 >
                   {item}
                 </a>

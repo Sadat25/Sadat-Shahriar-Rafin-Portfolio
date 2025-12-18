@@ -32,13 +32,13 @@ const Home = () => {
     const current = roles[index]
     const timeout = setTimeout(() => {
       if (!deleting && subIndex < current.length) setSubIndex(v => v + 1)
-      else if (!deleting && subIndex === current.length) setTimeout(() => setDeleting(true), 1200)
+      else if (!deleting && subIndex === current.length) setTimeout(() => setDeleting(true), 1300)
       else if (deleting && subIndex > 0) setSubIndex(v => v - 1)
       else if (deleting && subIndex === 0) {
         setDeleting(false);
         setIndex(p => (p + 1) % roles.length)
       }
-    }, deleting ? 40 : 60)
+    }, deleting ? 40 : 80)
     return () => clearTimeout(timeout)
   }, [index, subIndex, deleting, roles])
 
@@ -69,20 +69,20 @@ const Home = () => {
               <span>
                 {roles[index].substring(0, subIndex)}
               </span>
-              <span className='inline-block w-0.5 ml-1 bg-white animate-pulse align-bottom '
+              <span className='inline-block w-0.5 ml-1 bg-white animate-pulse align-middle '
                 style={{ height: "1em" }}
               >
               </span>
             </motion.div>
 
-            <motion.h1 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg'
+            <motion.h1 className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg'
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Hello I'm
+              Hello, I'm
               <br />
-              <span className='text-white font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:whitespace-nowrap '>Sadat Shahriar Rafin</span>
+              <span className='text-white font-bold text-3xl sm:text-4xl md:text-6xl lg:text-7xl lg:whitespace-nowrap '>Sadat Shahriar Rafin</span>
             </motion.h1>
             <motion.p className='mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0 '
               initial={{ opacity: 0, y: 20 }}
