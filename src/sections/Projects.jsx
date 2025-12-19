@@ -5,7 +5,7 @@ import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
 import photo1 from '../assets/photo1.png'
-import photo2 from '../assets/photo2.png'
+import photo2 from "../assets/photo2.png"
 import photo3 from '../assets/photo3.png'
 import photo4 from '../assets/photo4.png'
 import { AnimatePresence, useMotionValueEvent, useScroll } from 'framer-motion';

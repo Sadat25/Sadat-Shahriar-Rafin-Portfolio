@@ -71,7 +71,7 @@ function ExperienceItem({ exp, idx, start, end, scrollYProgress, layout }) {
       </motion.div>
       <motion.article className="bg-gray-900/80 backdrop-blur border border-gray-700/70 rounded-xl p-5 w-[90vw] max-w-sm ml-6 shadow-lg "
         style={{ scale, x }}
-        transition={{ duration: 0.4, duration: idx * 0.15 }}
+        transition={{ duration: 0.4, delay: idx * 0.15 }}
       >
         <h3 className="text-xl font-semibold wrap-break-word">{exp.role}</h3>
         <p className="text-sm text-gray-400 wrap-break-word">{exp.company}</p>
