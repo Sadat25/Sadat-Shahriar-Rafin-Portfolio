@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react"
 
 const experience = [
   {
-    role: "Frontend Developer (WordPress)",
+    role: "WordPress Developer",
     company: "Consumer-Based (Startup)",
     duration: "Feb 2025 - May 2025",
     description:
