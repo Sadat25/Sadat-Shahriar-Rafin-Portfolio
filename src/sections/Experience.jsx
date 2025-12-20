@@ -109,7 +109,7 @@ const Experience = () => {
   const lineSize = useTransform(scrollYProgress, (v) => `${v * 100}%`)
 
   return (
-    <section id="experience" className="relative bg-black text-white">
+    <section id="experience" className="relative min-h-screen bg-black text-white">
       <div
         ref={sceneRef}
         className="relative overflow-visible"
