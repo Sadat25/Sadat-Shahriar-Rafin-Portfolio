@@ -26,9 +26,8 @@ const Footer = () => {
         transition={{ duration: 0.8 }}
       >
         <h1
-          className="font-semibold text-white text-center select-none"
+          className="text-center select-none text-white font-bold text-3xl sm:text-4xl md:text-6xl lg:text-7xl lg:whitespace-nowrap"
           style={{
-            fontSize: "clamp(3rem, 10vw, 12rem)",
             letterSpacing: "0.02em",
             lineHeight: 0.9,
             padding: "0.3vw",
