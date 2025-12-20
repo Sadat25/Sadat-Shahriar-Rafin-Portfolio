@@ -106,20 +106,22 @@ const Contact = () => {
 
       <div className="relative z-10 w-full flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
-        <motion.div
-          className="w-full md:w-1/2 flex justify-center"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <motion.img
-            src={Astra}
-            alt="Contact"
-            className="w-72 md:w-140 rounded-2xl shadow-lg object-cover"
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          />
-        </motion.div>
+        <div className="w-full md:w-1/2 flex justify-center hidden lg:block">
+          <motion.div
+            className=" select-none pointer-events-none "
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            <motion.img
+              src={Astra}
+              alt="Contact"
+              className="w-72 md:w-140 rounded-2xl shadow-lg object-cover"
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+            />
+          </motion.div>
+        </div>
 
         {/* Form */}
         <motion.div
@@ -236,10 +238,10 @@ const Contact = () => {
             {status && (
               <p
                 className={`text-sm font-medium ${status === "sending"
-                    ? "text-yellow-400"
-                    : status === "success"
-                      ? "text-green-400"
-                      : "text-red-400"
+                  ? "text-yellow-400"
+                  : status === "success"
+                    ? "text-green-400"
+                    : "text-red-400"
                   }`}
               >
                 {status === "sending" && "🚀 Sending..."}

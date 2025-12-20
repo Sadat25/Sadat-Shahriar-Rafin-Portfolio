@@ -124,16 +124,13 @@ const Home = () => {
         </div>
 
         <div className='relative hidden lg:block'>
-
           <div
-
             className='absolute top-1/2 -translate-y-1/2 select-none pointer-events-none '
             style={{
               right: "10px", width: "min(22vw, 410px )", height: "min(40vw, 760px )", borderRadius: "50%",
               filter: "blur(38px)", opacity: 0.32,
               background: "conic-gradient(from 0deg, #1cd8d2, #00bf8f, #302b63, #1cd8d2)"
             }}
-
           />
 
           <motion.img src={avater} alt=""
