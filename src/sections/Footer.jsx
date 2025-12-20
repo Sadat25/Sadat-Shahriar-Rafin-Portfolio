@@ -25,16 +25,19 @@ const Footer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className='font-semibold leading-none text-white text-center select-none'
+        <h1
+          className="font-semibold text-white text-center select-none"
           style={{
-            fontSize: "clamp(3rem,5vw,14rem)",
+            fontSize: "clamp(3rem, 10vw, 12rem)",
             letterSpacing: "0.02em",
             lineHeight: 0.9,
             padding: "0.3vw",
-            whiteSpace: "nowrap",
             textShadow: "0 2px 18px rgba(0,0,0,0.45)"
           }}
-        >Sadat Shahriar Rafin</h1>
+        >
+          Sadat Shahriar Rafin
+        </h1>
+
         <div className='h-0.75 w-24 md:w-32 rounded-full bg-linear-to-r from-[#0d58cc] via-cyan-300 to-emerald-400 ' />
         <div className='flex gap-5 text-2xl md:text-3xl'>
           {socials.map(({ Icon, label, href }) => (
