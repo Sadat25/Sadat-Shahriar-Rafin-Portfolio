@@ -106,7 +106,7 @@ const Contact = () => {
 
       <div className="relative z-10 w-full flex flex-col md:flex-row items-center gap-10">
         {/* Image */}
-        <div className="w-full md:w-1/2 flex justify-center hidden lg:block">
+        <div className="hidden lg:flex w-full md:w-1/2 justify-center">
           <motion.div
             className=" select-none pointer-events-none "
             initial={{ opacity: 0, x: -50 }}
