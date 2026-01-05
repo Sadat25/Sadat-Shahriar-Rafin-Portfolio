@@ -14,14 +14,14 @@ import {
 } from 'react-icons/si';
 import { motion, useMotionValue } from 'framer-motion';
 
-const Skills = () => {
+const Skills = () => {  
 
   const skills = [
     { icon: <FaReact />, name: "React" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiNextdotjs />, name: "Next.js" },  
     { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiFastapi />, name: "FastAPI" },  
     { icon: <SiHtml5 />, name: "HTML" },
     { icon: <SiCss3 />, name: "CSS" },
     { icon: <SiDocker />, name: "Docker" },
