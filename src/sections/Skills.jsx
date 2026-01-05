@@ -8,14 +8,14 @@ import {
   SiFastapi,
   SiGithub,
   SiHtml5,
-  SiNextdotjs,
+  SiNextdotjs,  
   SiTailwindcss,
   SiTypescript
 } from 'react-icons/si';
 import { motion, useMotionValue } from 'framer-motion';
 
 const Skills = () => {  
-
+   
   const skills = [
     { icon: <FaReact />, name: "React" },
     { icon: <SiNextdotjs />, name: "Next.js" },  
