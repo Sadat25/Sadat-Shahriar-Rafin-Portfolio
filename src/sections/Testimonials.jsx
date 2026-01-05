@@ -9,14 +9,14 @@ import { motion } from 'framer-motion'
 const testimonials = [
   {
     name: "Yash Sahu",
-    role: "Software Engineer at HCL Technologies",
+    role: "Software Engineer at HCL Technologies",  
     review:
       "Gaurav is a visionary developer. His attention to detail and creativity blew us away. Our project was a massive success because of him.",
     image: m1,
   },
   {
     name: "Heather Forster",
-    role: "UI/UX Designer at PixelWorks",
+    role: "UI/UX Designer at PixelWorks",   
     review:
       "Working with Gaurav was an absolute pleasure. He brings design and code together like magic. Highly recommend him!",
     image: w1,
