@@ -11,14 +11,14 @@ const experience = [
   },
   {
     role: "Frontend Developer (Intern)",
-    company: "Bright Sill Ltd.",
+    company: "Bright Sill Ltd.",  
     duration: "Oct 2025 - Jan 2025",
-    description:
+    description:  
       "Led a team of frontend developers on production-like projects using React and Tailwind CSS, managing tasks, Git workflows, and code reviews.",
-  },  
+  },      
   {
     role: "Frontend Developer",
-    company: "Upcoming",
+    company: "Upcoming",             
     duration: "Future",
     description:
       "Continuously improving skills in modern JavaScript, React, and UI development to prepare for future frontend roles.",
