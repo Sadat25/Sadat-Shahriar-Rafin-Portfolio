@@ -13,14 +13,14 @@ const IntroAnimation = ({ onFinish }) => {
       "Hej",
       "Hallo",
       "Salam",
-    ],
+    ],   
     []
   );
-
+              
   const [index, setIndex] = useState(0);
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(true);                
 
-  useEffect(() => {
+  useEffect(() => {     
     if (index < greetings.length - 1) {
       const t = setTimeout(() => {
         setIndex((i) => i + 1);
