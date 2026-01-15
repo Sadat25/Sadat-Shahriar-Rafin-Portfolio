@@ -78,7 +78,7 @@ const Navbar = () => {
 
       <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-10 lg:px-20 py-4 z-50 transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
         <a href='#home' className='flex items-center space-x-2 '>
-          <img src="/Logo.png" alt="logo" className="w-8 h-8 rounded-full" />
+          <img src="/favicon.png" alt="logo" className="w-8 h-8 rounded-full" />
           <div className='text-2xl font-bold text-white hidden sm:block '>Rafin</div>
         </a>
         <div className='flex items-center space-x-7'>
