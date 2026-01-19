@@ -7,23 +7,23 @@ const CustomCursor = () => {
     y: 0,
   });
 
-  useEffect(() => {
+  useEffect(() => {          
     const handleMouseMove = (e) => {
       setCursor({
         x: e.clientX,
-        y: e.clientY,
+        y: e.clientY,                                 
       });
-    };
+    };              
 
-    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mousemove', handleMouseMove);           
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  })
+  })           
 
   return (
-    <div className='pointer-events-none fixed top-0 left-0 z-9999 '
+    <div className='pointer-events-none fixed top-0 left-0 z-9999 '            
       style={{ transform: `translate(${cursor.x - 40}px , ${cursor.y - 40}px )` }}
     >
       <div
