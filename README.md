@@ -1,16 +1,78 @@
-# React + Vite
+# 👋 Hi, I'm Sadat Shahriar Rafin  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ![Image Alt](https://github.com/Sadat25/Sadat-Shahriar-Rafin-Portfolio/blob/8dca9d7954a07985cb62788b0f16607f7a89e1d8/src/assets/Screenshot.png)
 
-Currently, two official plugins are available:
+## 🚀 Web Developer | Frontend Specialist
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I turn complex ideas into **clean, scalable, and high-performance web applications** that feel fast, intuitive, and impactful.
 
-## React Compiler
+With 3+ years of experience working on 50+ local and 30+ international projects, I focus on building modern, responsive, and user-friendly interfaces using industry best practices.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🧠 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💼 Frontend Developer (React.js Specialist)
+- 🎯 Passionate about performance, UI/UX, and scalable architecture
+- 🏢 Currently working as an Intern (Enterprise-Based Training) at Creative IT Institute
+- 🌍 Based in Bangladesh
+- 📈 Actively building a strong professional presence
+
+---
+
+## 🛠 Tech Stack
+
+### 💻 Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+- Tailwind CSS
+
+### ⚙️ Concepts & Tools
+- React Context API
+- Responsive Design
+- Component-Based Architecture
+- REST API Integration
+- Git & GitHub
+
+---
+
+## 📂 Featured Projects
+
+Here are some of my highlighted works:
+
+- 🔹 Modern Business Website (React + Tailwind)
+- 🔹 E-commerce Frontend UI
+- 🔹 Dashboard Interface with Dynamic Components
+- 🔹 Landing Pages Optimized for Performance
+
+> Visit my portfolio to explore more detailed case studies.
+
+---
+
+## 📊 What I Focus On
+
+✔ Clean & Maintainable Code  
+✔ Performance Optimization  
+✔ Responsive & Mobile-First Design  
+✔ Scalable Component Architecture  
+✔ User-Centered UI/UX  
+
+---
+
+## 📬 Connect With Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/sadat-shahriar-rafin-68274a35b/
+- 💻 GitHub: https://github.com/Sadat25
+- 📧 Email: sadatshahriarrafin@gmail.com
+
+---
+
+## 📌 Current Goal
+
+To collaborate with forward-thinking teams and contribute to impactful, scalable web applications while continuously improving my technical and communication skills.
+
+---
+
+⭐ If you like my work, feel free to explore my repositories and connect!
