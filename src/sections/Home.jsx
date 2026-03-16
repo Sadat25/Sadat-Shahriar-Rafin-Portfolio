@@ -6,7 +6,7 @@ import avater from '../assets/avator.png'
 
 const socials = [
   { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/sadat-shahriar-rafin-68274a35b/" },
-  { Icon: FaGithub, label: "Github", href: "https://github.com/Sadat25" }
+  { Icon: FaGithub, label: "Github", href: "https://github.com/sadatrafin" }
 ]
 
 const glow = {
